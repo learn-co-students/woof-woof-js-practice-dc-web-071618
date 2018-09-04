@@ -9,7 +9,7 @@
     {
       "id": 2,
       "name": "Nugget",
-      "isGoodDog": false,
+      "isGoodDog": true,
       "image": "https://www.guidedogs.org/wp-content/uploads/2018/01/Mobile.jpg"
     },
     {
@@ -45,7 +45,7 @@
     {
       "id": 8,
       "name": "Mittens",
-      "isGoodDog": true,
+      "isGoodDog": false,
       "image": "http://evelynswinebar.com/wp-content/uploads/2018/06/dogpic.jpg"
     },
     {
