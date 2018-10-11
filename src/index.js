@@ -59,8 +59,7 @@ function switchGoodDog(event) {
     body: JSON.stringify({isGoodDog: goodDog}),
     headers: {
       "Content-Type": "application/json",
-      "Accept": "application/json"
-    }
+      "Accept": "application/json"}
   })
   .then(response => response.json())
   .then(jsonData => displayDog(jsonData))
@@ -80,8 +79,7 @@ function switchFilter() {
   } else {
     document.querySelector('#good-dog-filter').innerText = "Filter good dogs: OFF"
     filter = !filter
-    fetchDogs()
-  }
+    fetchDogs()}
 }
 
 function getGoodDogs() {
